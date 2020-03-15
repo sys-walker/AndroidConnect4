@@ -30,6 +30,40 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.217" />
 
+
+    <RadioGroup
+        android:id="@+id/grupo"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266">
+
+        <RadioButton
+            android:id="@+id/size_7x7"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="@string/c7x7" />
+
+        <RadioButton
+            android:id="@+id/size_6x6"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="@string/c6x6" />
+
+        <RadioButton
+            android:id="@+id/size_5x5"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="@string/c5x5" />
+
+
+    </RadioGroup>
+
     <TextView
         android:id="@+id/time_control"
         android:layout_width="wrap_content"
@@ -37,10 +71,10 @@
         android:text="@string/time_control"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintHorizontal_bias="0.098"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.359" />
+        app:layout_constraintVertical_bias="0.335" />
 
     <EditText
         android:id="@+id/alias_input"
@@ -58,17 +92,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.112" />
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.441" />
 
     <Button
         android:id="@+id/play_game"
@@ -81,5 +104,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.598" />
+
+    <ToggleButton
+        android:id="@+id/timerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

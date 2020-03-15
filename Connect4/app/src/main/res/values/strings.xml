@@ -11,12 +11,19 @@
     <string name="player_alias">Player alias</string>
     <string name="player_alias_hint">Player alias</string>
     <string name="no_player_toast">Please input Alias</string>
+    <string name="no_size_toast">Please select connect4 size</string>
+    <string name="no_player_size_toast">Please input Alias and  select connect4 size</string>
 
     <string name="grid_size">connect4 size</string>
+    <string name="c7x7">7</string>
+    <string name="c6x6">6</string>
+    <string name="c5x5">5</string>
+
     <string name="time_control">Cronometer</string>
 
 
     <string name="play_game">Start</string>
+    <string name="togglebutton">ToggleButton</string>
 
 
 </resources>
