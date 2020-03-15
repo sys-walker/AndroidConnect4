@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">AndroidConnect4</string>
+    <!--Button Labels-->
+    <string name="exit_main_connect4">Exit game</string>
+    <string name="start_connect4">Play connect4</string>
+    <string name="help_screen">Help</string>
+    <!--Help screen Labels-->
+    <string name="go_to_main">Go to the main menu</string>
+    <!--Preface Labels-->
+    <string name="player_alias">Player alias</string>
+    <string name="player_alias_hint">Player alias</string>
+    <string name="no_player_toast">Please input Alias</string>
+
+    <string name="grid_size">connect4 size</string>
+    <string name="time_control">Cronometer</string>
+
+
+    <string name="play_game">Start</string>
+
+
+</resources>
