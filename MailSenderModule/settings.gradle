@@ -1,0 +1,2 @@
+rootProject.name='MailSenderModule'
+include ':app'
