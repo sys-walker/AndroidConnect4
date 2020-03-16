@@ -29,12 +29,6 @@ public class PrefaceConnect4 extends AppCompatActivity {
             }
         });
 
-
-
-
-
-
-
         final Button playGame= findViewById(R.id.play_game);
         playGame.setOnClickListener(new View.OnClickListener() {
             @Override
