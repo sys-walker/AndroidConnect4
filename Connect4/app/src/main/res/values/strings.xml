@@ -19,5 +19,8 @@
     <string name="send">Enviar</string>
     <string name="my_text">MY TEXT</string>
     <string name="alias_field">Alies identificatiu</string>
+    <string name="button_help_text">Ajuda</string>
+    <string name="button_exit_text">Sortir</string>
+    <string name="back_main_text">Tornar</string>
 </resources>
 

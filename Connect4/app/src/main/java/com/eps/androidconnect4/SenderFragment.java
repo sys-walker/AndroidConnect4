@@ -54,7 +54,7 @@ public class SenderFragment extends Fragment implements View.OnClickListener {
         //subject mail (data i hora)
         subject_mail =  v.findViewById(R.id.asunto_field);
         String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
-        subject_mail.setText(mydate);
+        subject_mail.setText(String.format("LOG -%s", mydate));
 
         //body_mail (valors de log i aquestes coses)
         body_mail = v.findViewById(R.id.text_mail); //body valors de logs
@@ -99,7 +99,7 @@ public class SenderFragment extends Fragment implements View.OnClickListener {
 
         String  ENVIAR_A=enviar_a.getText().toString();
 
-        String  ASUNTO="LOG -"+subject_mail.getText(); //subject mail LOG-data i hora
+        String  ASUNTO=subject_mail.getText().toString(); //subject mail LOG-data i hora
         String  TEXTO=body; // alias= graella = estat.....
 
 
