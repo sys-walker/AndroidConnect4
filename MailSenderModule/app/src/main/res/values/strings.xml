@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">MailSenderModule</string>
-    <string name="subject">subject mail [data i hora]</string>
-    <string name="body_mail">body [valors de log]</string>
-    <string name="to_mail">email to ---></string>
-    <string name="send">Enviar</string>
-    <string name="my_text">MY TEXT</string>
-
-</resources>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidConnect4.iml" filepath="$PROJECT_DIR$/AndroidConnect4.iml" group="AndroidConnect4" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AndroidConnect4/app" />
+      <module fileurl="file://$PROJECT_DIR$/androidconnect4.iml" filepath="$PROJECT_DIR$/androidconnect4.iml" group="androidconnect4" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="androidconnect4/app" />
     </modules>
   </component>
 </project>
