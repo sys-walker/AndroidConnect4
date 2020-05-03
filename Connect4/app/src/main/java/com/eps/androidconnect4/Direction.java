@@ -1,3 +1,5 @@
+package com.eps.androidconnect4;
+
 public class Direction {
 
     public static final Direction DOWN            = new Direction(1, 0);

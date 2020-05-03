@@ -1,3 +1,5 @@
+package com.eps.androidconnect4;
+
 public class Game {
     private final Board board;
     private final int toWin;

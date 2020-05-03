@@ -1,3 +1,5 @@
+package com.eps.androidconnect4;
+
 public class Board {
     private final int size;
     private final Cell[][] cells;

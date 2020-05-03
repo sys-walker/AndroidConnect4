@@ -1,3 +1,5 @@
+package com.eps.androidconnect4;
+
 public enum Status {
     PLAYER1_PLAYS,
     PLAYER2_PLAYS,
