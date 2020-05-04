@@ -5,7 +5,7 @@
 
 ### Authors ###  
  - [Pere Rollon ](https://github.com/sys-walker)  
- - [Montse Sedín](https://github.com/msendin)    _: Enunciat_
+ - [Montse Sedín](https://github.com/msendin)    _: Presentacion-Entrega1Pract.pdf,LogicaJuego-Conecta4.pdf,transparencies classe _
   
 ### Professorat ###  
  - [Montse Sedín](https://github.com/msendin)    
