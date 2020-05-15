@@ -1,4 +1,4 @@
-package com.eps.androidconnect4;
+package com.eps.androidconnect4.UIgame;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -13,6 +13,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.eps.androidconnect4.MainActivity;
+import com.eps.androidconnect4.R;
 
 import java.util.Calendar;
 
@@ -54,11 +57,11 @@ public class SenderFragment extends Fragment implements View.OnClickListener {
         //subject mail (data i hora)
         subject_mail =  v.findViewById(R.id.asunto_field);
         String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
-        subject_mail.setText(String.format("LOG -%s", mydate));
+        subject_mail.setText(mydate);
 
         //body_mail (valors de log i aquestes coses)
         body_mail = v.findViewById(R.id.text_mail); //body valors de logs
-        body = "Alias:"+DataTransfer.b.get("ALIAS")+" Mida graella:"+ DataTransfer.b.get("MIDA_GRAELLA")+" Temps Total:(0 sec manual handwrite)";
+        body = "Alias:"+ MainActivity.b.get("ALIAS")+" Mida graella:"+ MainActivity.b.get("MIDA_GRAELLA")+" Temps Total:(0 sec manual handwrite)";
         body_mail.setText(body);
 
         //correu destinatari
@@ -99,7 +102,7 @@ public class SenderFragment extends Fragment implements View.OnClickListener {
 
         String  ENVIAR_A=enviar_a.getText().toString();
 
-        String  ASUNTO=subject_mail.getText().toString(); //subject mail LOG-data i hora
+        String  ASUNTO="LOG -"+subject_mail.getText(); //subject mail LOG-data i hora
         String  TEXTO=body; // alias= graella = estat.....
 
 

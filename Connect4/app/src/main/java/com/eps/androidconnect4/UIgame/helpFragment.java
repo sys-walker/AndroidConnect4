@@ -1,4 +1,4 @@
-package com.eps.androidconnect4;
+package com.eps.androidconnect4.UIgame;
 
 import android.os.Bundle;
 
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.eps.androidconnect4.R;
 
 
 /**

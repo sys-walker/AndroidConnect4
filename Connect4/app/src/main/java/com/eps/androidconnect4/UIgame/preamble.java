@@ -1,4 +1,4 @@
-package com.eps.androidconnect4;
+package com.eps.androidconnect4.UIgame;
 
 import android.os.Bundle;
 
@@ -12,6 +12,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import com.eps.androidconnect4.MainActivity;
+import com.eps.androidconnect4.R;
 
 
 /**
@@ -44,8 +47,6 @@ public class preamble extends Fragment implements View.OnClickListener {
         commence_btn.setOnClickListener(this);
 
 
-
-
         return v;
     }
 
@@ -53,11 +54,11 @@ public class preamble extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch ( v.getId()){
             case R.id.commence_game:
-                DataTransfer.b.putString("ALIAS", alias.getText().toString());
-                DataTransfer.b.putInt("MIDA_GRAELLA",getGameSize());
+                MainActivity.b.putString("ALIAS", alias.getText().toString());
+                MainActivity.b.putInt("MIDA_GRAELLA",getGameSize());
 
                 Toast.makeText(getContext(),"commencing",Toast.LENGTH_LONG).show();
-                Navigation.findNavController(v).navigate(R.id.action_blankFragment1_to_senderTESTING);
+                Navigation.findNavController(v).navigate(R.id.action_preambleFragment_to_connect4Fragment);
                 break;
         }
 

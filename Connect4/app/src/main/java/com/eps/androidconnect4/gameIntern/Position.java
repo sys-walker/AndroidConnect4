@@ -1,4 +1,5 @@
-package com.eps.androidconnect4;
+package com.eps.androidconnect4.gameIntern;
+
 public class Position {
 
     private final int row;

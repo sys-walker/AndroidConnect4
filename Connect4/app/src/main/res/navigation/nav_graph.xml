@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.eps.androidconnect4.MainFragment"
+        android:name="com.eps.androidconnect4.UIgame.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/helpFragment"
-        android:name="com.eps.androidconnect4.helpFragment"
+        android:name="com.eps.androidconnect4.UIgame.helpFragment"
         android:label="fragment_help"
         tools:layout="@layout/fragment_help" >
         <action
@@ -28,19 +28,16 @@
     </fragment>
     <fragment
         android:id="@+id/preambleFragment"
-        android:name="com.eps.androidconnect4.preamble"
+        android:name="com.eps.androidconnect4.UIgame.preamble"
         android:label="FPreamble"
         tools:layout="@layout/fragment_preamble">
-        <action
-            android:id="@+id/action_blankFragment1_to_senderTESTING"
-            app:destination="@id/senderFragment" />
         <action
             android:id="@+id/action_preambleFragment_to_connect4Fragment"
             app:destination="@id/connect4Fragment" />
     </fragment>
     <fragment
         android:id="@+id/senderFragment"
-        android:name="com.eps.androidconnect4.SenderFragment"
+        android:name="com.eps.androidconnect4.UIgame.SenderFragment"
         android:label="fragment_blank2"
         tools:layout="@layout/fragment_sender" >
         <action
@@ -49,7 +46,7 @@
     </fragment>
     <fragment
         android:id="@+id/connect4Fragment"
-        android:name="com.eps.androidconnect4.connect4Fragment"
+        android:name="com.eps.androidconnect4.UIgame.connect4Fragment"
         android:label="fragment_connect4"
         tools:layout="@layout/fragment_connect4" >
         <action
